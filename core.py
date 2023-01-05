@@ -10,14 +10,6 @@ from typing import List
 from typing import Tuple
 
 
-import os
-import sys
-import webbrowser
-from platform import system
-from traceback import print_exc
-from typing import Any, Callable, List, Tuple
-
-
 def clear_screen() -> None:
     os.system("cls" if system() == "Windows" else "clear")
 
